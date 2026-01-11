@@ -81,6 +81,7 @@ This mirrors real ASHA workflows and highlights cases that need continued attent
 **ASHA worker marks follow-up decision** as /followup yes or /followup no
 The visit will be stored in the **patient_visits** table  and the follow-up decision in the **followups** table respectively.
 
+Screenshots of this example are provided in the folder screenshots 
 
 ## Ethical AI Statement
 
