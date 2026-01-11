@@ -3,8 +3,7 @@ from groq import Groq
 from deep_translator import GoogleTranslator
 from langdetect import detect
 
-# 🔐 GROQ API KEY
-client = Groq(api_key="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")
+client = Groq(api_key=GROQ_API_KEY)
 
 SYSTEM_PROMPT = """
 You are a healthcare assistant supporting ASHA workers in India.
@@ -52,8 +51,9 @@ def get_ai_reply(user_input):
         return answer_en
 
     except Exception as e:
-        print("❌ AI ERROR:", e)
+        print("AI ERROR:", e)
         return "ക്ഷമിക്കണം, ഇപ്പോൾ മറുപടി നൽകാൻ കഴിയുന്നില്ല."
+
 
 
 
