@@ -1,0 +1,4 @@
+.env
+asha_data.db
+*.xlsx
+__pycache__/
