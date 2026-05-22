@@ -12,7 +12,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from ai_handler import get_ai_reply
 from db import init_db, insert_visit, insert_followup
 
-BOT_TOKEN = "8494753651:AAEGU1FY_Lf6t86cYVoOee0wJWE4GKPmbC4"
+BOT_TOKEN = ""
 
 
 
